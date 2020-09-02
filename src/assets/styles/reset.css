@@ -6,9 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
@@ -20,6 +22,36 @@ button,
   -webkit-appearance: button;
   cursor: pointer;
 }
+
+/* #### Código reset css input retirado da internet #### */
+/* https://gist.github.com/anthonyshort/552543 */
+input,
+label,
+select,
+button,
+textarea
+{
+	margin:0;
+	border:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	line-height:1;
+}
+
+input:focus{
+	outline:0;
+}
+
+input,
+textarea
+{
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+}
+/* ### Fim #### */
 
 p {
   margin-inline-start: 0;
@@ -33,14 +65,12 @@ li,
 a {
     text-decoration: none;
     list-style: none;
-
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 0;
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
