@@ -70,4 +70,12 @@
     .container .box {
         justify-content: center;
     }
+
+    @media only screen and (max-width: 792px) {
+        .container .box {
+            padding: 0;
+        }
+    
+        
+    }
 }
