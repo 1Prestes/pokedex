@@ -5,7 +5,7 @@ import './styles.css'
 const Header: React.FC = () => {
   return (
     <header className="main-header">
-      <div className="container">
+      <div className="header-container">
         <div className="logo">
           <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M40 0C17.9441 0 0 17.9441 0 40V41.3332H24.3875V38.6664H2.68984C3.39414 18.6953 19.8602 2.6668 40 2.6668C60.1398 2.6668 76.6059 18.6953 77.3102 38.6668H55.4695V41.3336H80V40C80 17.9441 62.0559 0 40 0Z" fill="#666360" />
