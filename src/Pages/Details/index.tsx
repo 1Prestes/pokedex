@@ -38,14 +38,11 @@ const Details: React.FC = () => {
             <div className="card-footer">
               <h2>Stats</h2>
               <ul className="stats">
-                <li>HP <span>80/100</span></li>
-                <li>ATK <span>80/100</span></li>
-                <li>DEF <span>80/100</span></li>
-                <li>SPD <span>80/100</span></li>
+                <li>HP <div><p style={{ width: '56%' }}>56/100</p></div></li>
+                <li>ATK <div><p style={{ width: '73%' }}>73/100</p></div></li>
+                <li>DEF <div><p style={{ width: '30%' }}>30/100</p></div></li>
+                <li>SPD <div><p style={{ width: '56%' }}>56/100</p></div></li>
               </ul>
-              <div className="progress">
-                <div className="progress-bar" role="progressbar" style={{ width: '25%' }} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100}>25%</div>
-              </div>
             </div>
           </div>
         </div>
@@ -53,7 +50,7 @@ const Details: React.FC = () => {
 
       <div className="container-details">
         <h2 className="family-title">Family Tree</h2>
-        <div className="box-details">
+        <div className="box-details box-family">
 
           <div className="card">
             <div className="card-header">

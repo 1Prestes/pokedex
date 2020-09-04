@@ -77,15 +77,28 @@
 }
 
 .card-details .card-footer .stats li{
+    display: flex;
+    margin: 12px;
+    width: 280px;
+    justify-content: space-around;
     font-size: 16px;
     line-height: 21px;
 }
 
-.card-details .card-footer .stats li span{
+.card-details .card-footer .stats li div{
     width: 241px;
     height: 22px;
+    display: flex;
+    text-align: end;
     border-radius: 20px;
     background: #C4C4C4;
+}
+
+.card-details .card-footer .stats li div p{
+    border-radius: 20px;
+    padding-right: 10px;
+    height: 22px;
+    background: #FF9000;
 }
 
 .card-details .card-footer .progress {
@@ -106,4 +119,20 @@
     white-space: nowrap;
     background-color: #007bff;
     transition: width 0.6s ease;
+}
+
+.container-details .family-title {
+    width: 256px;
+    height: 37px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    padding: 38px;
+    color: #F4EDE8;
+}
+
+.container-details .box-family {
+    justify-content: flex-start;
+    margin-left: 15px;
 }
