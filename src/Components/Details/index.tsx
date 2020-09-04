@@ -3,12 +3,11 @@ import React from 'react'
 import Card from '../Card'
 import './styles.css'
 
-const Details: React.FC = () => {
+const Details: React.FC<any> = ({ showDetails }: any) => {
   return (
-
     <>
       <div className="container-details">
-        <button className="btn-back">
+        <button className="btn-back" onClick={showDetails}>
           <span>
             <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M28.3333 11H1.66663" stroke="#FF9000" />

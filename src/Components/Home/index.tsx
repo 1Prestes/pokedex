@@ -15,7 +15,7 @@ const Home: React.FC = () => {
   return (
 
     <>
-      {details && <Details />}
+      {details && <Details showDetails={showDetails} />}
       <div className="container">
         <div className="box">
           {
