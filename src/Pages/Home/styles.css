@@ -69,13 +69,22 @@
 @media only screen and (max-width: 1149px) {
     .container .box {
         justify-content: center;
+        
+    }
+
+    .card {
+        margin: 21px calc(57px / 2);
     }
 
     @media only screen and (max-width: 792px) {
         .container .box {
             padding: 0;
         }
-    
-        
+
+        @media only screen and (max-width: 792px) {
+            .card {
+                margin: 21px 4%;
+            }   
+        }
     }
 }
