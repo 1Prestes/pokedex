@@ -12,7 +12,7 @@ const Card: React.FC<any> = ({ showDetails }: any) => {
       </div>
       <div className="card-body">
         <p className="info-name">Name: <span>Bulbasaur</span></p>
-        <p className="info-type">Type: <span>Grass, Poison</span></p>
+        <p className="info-type">Types: <span>Grass, Poison</span></p>
       </div>
     </div>
   )

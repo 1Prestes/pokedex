@@ -12,6 +12,7 @@
     line-height: 32px;
     background: none;
     color: #FF9000;
+    outline: none;
 }
 
 .container-details .btn-back span{
