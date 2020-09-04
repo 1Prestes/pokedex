@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1156px;
+    padding: 0 38px;
+}
+
+@media only screen and (max-width: 1149px) {
+    .container .box {
+        justify-content: center;
+        
+    }
+
+    @media only screen and (max-width: 792px) {
+        .container .box {
+            padding: 0;
+        }
+    }
+}

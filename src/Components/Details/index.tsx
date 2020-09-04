@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Card from '../Card'
 import './styles.css'
 
 const Details: React.FC = () => {
@@ -51,27 +52,7 @@ const Details: React.FC = () => {
       <div className="container-details">
         <h2 className="family-title">Family Tree</h2>
         <div className="box-details box-family">
-
-          <div className="card">
-            <div className="card-header">
-              <p>#1</p>
-              <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="buba" />
-            </div>
-            <div className="card-body">
-              <p className="info-name">Name: <span>Bulbasaur</span></p>
-              <p className="info-type">Type: <span>Grass, Poison</span></p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-header">
-              <p>#3</p>
-              <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg" alt="Venu" />
-            </div>
-            <div className="card-body">
-              <p className="info-name">Name: <span>Venusaur</span></p>
-              <p className="info-type">Type: <span>Grass, Poison</span></p>
-            </div>
-          </div>
+          <Card />
         </div>
       </div>
     </>

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Header from './Pages/Header'
-import Home from './Pages/Home'
+import Header from './Components/Header'
+import Home from './Components/Home'
 
 const App: React.FC = () => {
   return (
