@@ -9,6 +9,7 @@ import { fetchPokemons } from '../../helpers/axios-http-client'
 const Home: React.FC = () => {
   const [details, setDetails] = React.useState<boolean>(false)
   const [pokemons, setPokemons] = React.useState<[]>([])
+  // const [pokemon, setPokemon] = React.useState<{}>({})
 
   const showDetails = (): void => {
     setDetails(!details)
@@ -16,13 +17,25 @@ const Home: React.FC = () => {
 
   const getPokemons: any = async () => {
     const data = await fetchPokemons(0, 20)
-    console.log(data.other)
-    setPokemons(data.list)
+    setPokemons(data)
   }
+
+  // const pokemonDetails: any = async (name: string) => {
+  //   const data = await fetchPokemon(name)
+  //   console.log(pokemon)
+  //   return setPokemon({ ...data })
+  // }
 
   React.useEffect(() => {
     getPokemons()
   }, [])
+
+  // React.useEffect(() => {
+  //   pokemons.map(pk => {
+  //     const { name } = pk
+  //     pokemonDetails(name)
+  //   })
+  // }, [pokemons])
 
   return (
 
