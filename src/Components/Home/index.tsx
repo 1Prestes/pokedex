@@ -4,13 +4,24 @@ import './styles.css'
 import Search from '../Search'
 import Details from '../Details'
 import Card from '../Card'
+import { fetchPokemons } from '../../helpers/axios-http-client'
 
 const Home: React.FC = () => {
   const [details, setDetails] = React.useState<boolean>(false)
+  const [pokemons, setPokemons] = React.useState<[]>([])
 
   const showDetails = (): void => {
     setDetails(!details)
   }
+
+  const getPokemons: any = async () => {
+    const data = await fetchPokemons(0, 20)
+    setPokemons(data)
+  }
+
+  React.useEffect(() => {
+    getPokemons()
+  }, [])
 
   return (
 
@@ -22,7 +33,10 @@ const Home: React.FC = () => {
             !details &&
             <>
               <Search />
-              <Card showDetails={showDetails} />
+              {pokemons.map(pokemon => {
+                const { name, url } = pokemon
+                return <Card showDetails={showDetails} key={url} name={name} />
+              })}
             </>
           }
         </div>
