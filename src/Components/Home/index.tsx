@@ -16,7 +16,8 @@ const Home: React.FC = () => {
 
   const getPokemons: any = async () => {
     const data = await fetchPokemons(0, 20)
-    setPokemons(data)
+    console.log(data.other)
+    setPokemons(data.list)
   }
 
   React.useEffect(() => {
