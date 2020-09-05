@@ -1,44 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pokedex
+> Projeto desenvolvido desenvolvido em teste para frontend
 
-## Available Scripts
+## Instruções de instalação
 
-In the project directory, you can run:
+1. Clone o repositório.
+2. Usando o terminal, navegue até a pasta raiz do repositorio `cd pokedex` e execute o comando `npm install` ou `yarn` para instalar as dependencias.
+3. Utilizando um navegador web, va até o link [http://localhost:3000](http://localhost:3000) 
 
-### `yarn start`
+## Outras observações
+O projeto foi desenvolvido utilizando conventional commits [https://www.conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0/) para controle de versões, alem do auxilio do artigo da Origamid [https://origamid.com/projetos/flexbox-guia-completo/](https://origamid.com/projetos/flexbox-guia-completo/) para tornar o site responsivo e React TypeScript Cheatsheets [https://react-typescript-cheatsheet.netlify.app/](https://react-typescript-cheatsheet.netlify.app/) para aprender a dar os primeiros passos com React e Typescript
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Sobre minha experiência com o desafio
+Tive um grande aprendizado com esse desafio, onde tive minha primeira experiência no desenvolvimento frontend com as tecnologias requisitadas, porem por algum problema de lógica na minha implementação com a API não consegui completar o mesmo onde pode ser percebido a partir do commit **f70677c** tendo sido essa a minha maior dificuldade.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Meta
 
-### `yarn test`
+Dijango Alves Rodolfo – [Dijango Alves](https://www.linkedin.com/in/kimn/) – dijango_ilha@hotmail.com
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[https://github.com/1Prestes](https://github.com/1Prestes)
 
-### `yarn build`
+## Contributing
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Faça o _fork_ do projeto (<https://github.com/1Prestes/pokedex/fork>)
+2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
+3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
+4. _Push_ (`git push origin feature/fooBar`)
+5. Crie um novo _Pull Request_
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
