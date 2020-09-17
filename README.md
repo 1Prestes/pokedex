@@ -1,5 +1,5 @@
 # Pokedex
-> Projeto desenvolvido desenvolvido em teste para frontend
+> Projeto desenvolvido com base em um layout do figma
 
 ## Instruções de instalação
 
@@ -10,8 +10,6 @@
 ## Outras observações
 O projeto foi desenvolvido utilizando conventional commits [https://www.conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0/) para controle de versões, alem do auxilio do artigo da Origamid [https://origamid.com/projetos/flexbox-guia-completo/](https://origamid.com/projetos/flexbox-guia-completo/) para tornar o site responsivo e React TypeScript Cheatsheets [https://react-typescript-cheatsheet.netlify.app/](https://react-typescript-cheatsheet.netlify.app/) para aprender a dar os primeiros passos com React e Typescript
 
-## Sobre minha experiência com o desafio
-Tive um grande aprendizado com esse desafio, onde tive minha primeira experiência no desenvolvimento frontend com as tecnologias requisitadas, porem por algum problema de lógica na minha implementação com a API não consegui completar o mesmo onde pode ser percebido a partir do commit **f70677c** tendo sido essa a minha maior dificuldade.
 
 ## Meta
 
