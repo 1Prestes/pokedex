@@ -1,6 +1,10 @@
 # Pokedex
 > Projeto desenvolvido com base em um layout do figma
 
+## Deploy
+
+[Pokedex](https://1prestes.github.io/pokedex/)
+
 ## Instruções de instalação
 
 1. Clone o repositório.
